@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import {Helmet} from "react-helmet";
 import Loader from "Components/Loader";
 import Section from "Components/Section";
 import Error from "Components/Message";
@@ -38,6 +39,9 @@ const SearchPresenter = ({
         </Form>
         {loading ? <Loader/> : (
             <>
+                <Helmet>
+                    <title>Search | Netflix</title>
+                </Helmet>
                 {movieResults && movieResults.length > 0 && 
                 (<Section title="Movie Results">
                     {movieResults.map(movie => (

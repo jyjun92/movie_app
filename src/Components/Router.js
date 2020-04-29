@@ -16,7 +16,7 @@ export default () => (
             <Route path="/tv"  exact component={TV}></Route>    
             <Route path="/search"  component={Search}></Route>
             <Route path="/movie/:id" component={Detail}></Route>
-            <Route path="/tv/:id" component={Detail}></Route>
+            <Route path="/show/:id" component={Detail}></Route>
             <Redirect from="*" to="/" />
         </Switch>
         </>
