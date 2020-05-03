@@ -6,14 +6,18 @@ const Container = styled.div`
     height: 100vh;
     width: 100vh;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     font-size: 28px;
     margin-top: 20px;
+    margin-left: 10px;
+    opacity: 0.7;
 `;
 
 export default () => <Container>
      <Helmet>
         <title>Loading | Netflix</title>
     </Helmet> 
-    <span role = "img" aria-label="Loading">⏰</span>
+    <span role = "img" aria-label="Loading">
+        Loading...
+    </span>
 </Container>

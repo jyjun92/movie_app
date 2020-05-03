@@ -17,3 +17,14 @@ Use React and ES6 building a Movie Discovery App.
 -Airing Today (TV)
 -Detail (TV, Movie)
 -Search (TV, Movie)
+
+## To be added
+-IMDB Link
+-Videos 
+-Recommendation 
+-Collection
+
+
+npm add:
+-react-router-dom
+-styled-component 
